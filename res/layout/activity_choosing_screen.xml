@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#b3b3b3"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="48dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/none"
+            android:src="@drawable/smallicon" />
+
+        <TextView
+            android:id="@+id/textView2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:paddingLeft="10sp"
+            android:text="@string/app_name"
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="0dp"
+         android:layout_weight="0.2"
+         android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/textView2_2"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="30sp"
+             android:gravity="center"
+             android:text="@string/title_choice1"
+             android:textColor="#343434"
+             android:textSize="25sp"
+             android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/textView2_3"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="7sp"
+             android:gravity="center"
+             android:text="@string/title_choice2"
+             android:textColor="#343434"
+             android:textSize="18sp" />
+    </LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bubblesort"
+            android:layout_width="164dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40sp"
+            android:layout_weight="0.00"
+            android:onClick="onButtonClick01"
+            android:text="@string/bubblesort"
+            android:textColor="#343434"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/quicksort"
+            android:layout_width="150sp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40sp"
+            android:onClick="onButtonClick02"
+            android:text="@string/quicksort"
+            android:textColor="#343434"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/mergesort"
+            android:layout_width="150sp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40sp"
+            android:onClick="onButtonClick03"
+            android:text="@string/mergesort"
+            android:textColor="#343434"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Sorting Algorithms</string>
+    <string name="loading">Loading&#8230;</string>
+    
+    <string name="title_choice1">Please choose algorithm</string>
+    <string name="title_choice2">(Press button below)</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="author">Design by group T3Q</string>
+    <string name="none">11&#8211;22&#8211;33&#8211;44&#8211;55</string>
+
+
+    <string name="title_input1">Please enter a number</string>
+    <string name="title_input2">(From 1 To 10)</string>
+	<string name="quicksort">Quick Sort</string>
+    <string name="mergesort">Merge Sort</string>
+    <string name="bubblesort" >Bubble Sort</string>
+    <string name="buttonOK"> OK</string>
+
+    <string name="buttonNEXT"> Next</string>
+    <string name="buttonRESET"> Reset</string>
+    
+    <string name="on_back_button_message">Do you want to exit the application?</string>
+    <string name="on_back_button_title">Exit</string>
+    <string name="title_activity_choosing_screen">ChoosingScreen</string>
+</resources>

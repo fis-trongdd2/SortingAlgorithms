@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#b3b3b3"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="48dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/none"
+            android:src="@drawable/smallicon" />
+
+        <TextView
+            android:id="@+id/textView2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:paddingLeft="10sp"
+            android:text="@string/app_name"
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/textView4_1"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="30sp"
+             android:gravity="center"
+             android:textColor="#343434"
+             android:textSize="25sp"
+             android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/textView4_2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_marginTop="80sp"
+             android:layout_marginBottom="10sp"
+             android:text="@string/none"
+             android:textColor="#ff0033"
+             android:textSize="20sp" />
+
+         <TextView
+             android:id="@+id/textView4_3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_marginTop="10sp"
+             android:text="@string/none"
+             android:textColor="#ff0033"
+             android:textSize="20sp" />
+     </LinearLayout>
+	    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center|bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onclickButtonNext"
+            android:text="@string/buttonNEXT"
+            android:layout_marginBottom="20sp"
+            android:textStyle="bold" 
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
